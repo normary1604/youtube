@@ -1,0 +1,153 @@
+body{
+    display: grid;
+    grid-template-columns: 7% 93% ;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+#barra{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.botonCategorias{
+    border-radius: 10px;
+    border-color: transparent;
+}
+.botonCategorias:hover{
+    background-color: gray;
+}
+.categorias{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+    
+}
+.icono{
+    display:flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+#lateral{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    
+}
+.titulosCentrados{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;   
+    
+}
+#burguerMenu{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.iconosLateral{
+    width: 35px;
+}
+.columnaVideo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.infoVideo{
+    display: flex;
+}
+.imagenDePerfil{
+    border-radius: 30px;
+    width: 40px;
+}
+.imagenVideo{
+    border-radius: 15px;
+    width: 290px;
+}
+.parrafo{
+    margin-top: -5px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: rgb(31, 31, 31);
+    overflow: hidden;
+    width: 240px;
+    height: 10px;
+}
+#Titulo{
+    margin-top: 2px;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    width: 240px;
+    height: 16px;
+}
+#inputNav{
+    display:flex;
+    align-items: center;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-radius: 30px;
+    padding-left: 40px;
+    width: 462px;
+    height: 49px;
+}
+.filaVideo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.informacionVideo{
+    display: grid;
+    justify-content: flex-start;
+}
+
+#entrada{
+    justify-content: flex-start;
+    height: 45px;
+    width: 330px;
+    outline: none;
+    border: 0;
+}
+#entrada::placeholder{
+    color:gray;
+}
+
+#lupa{
+    display: flex;
+    height: 47px;
+    border-radius: 0px 30px 30px 0px;
+    border-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+#lupa:hover{
+    background-color: gray;
+}
+#filaInput{
+    display: flex;
+    width: 460px;   
+    align-items: center; 
+    
+}
+#microfono{
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border-color: transparent;
+}

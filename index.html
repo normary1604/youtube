@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--Columna izquierda-->
+    <aside id="lateral">
+        <div id="burguerMenu" class ="titulosCentrados">
+            <i class="fa-solid fa-bars"></i>
+            <!--
+                Por si alguien quiere utilizar imagenes
+                <img src="./imagenes/menu.png" alt="">
+            -->
+        </div>
+        <div class ="titulosCentrados">
+            <img class="iconosLateral" src="./imagenes/principal.png">
+            <p>Principal</p>            
+        </div>
+        <div class ="titulosCentrados">
+            <img class="iconosLateral" src="./imagenes/shorts.png">
+            <p>Shorts</p>
+        </div>
+        <div class ="titulosCentrados">
+            <img class="iconosLateral" src="./imagenes/suscripciones.png">
+            <p>Subscripciones</p>
+        </div>
+        <div class ="titulosCentrados">
+            <img class="iconosLateral" src="./imagenes/biblioteca.png">
+            <p>Biblioteca</p>
+        </div>
+    </aside>
+    <main>
+        <!--Barra de navegacion-->
+        <nav id="barra">
+            <div>
+                <img src="./imagenes/youtube.png">
+            </div>
+            <div id="filaInput">
+                <div id="inputNav">
+                    <input id="entrada" type="text" placeholder="Buscar">
+                    <button id="lupa">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <button id="microfono">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+            <div class="icono">
+                <img src="./imagenes/video.png">
+                <img src="./imagenes/campanita.png">
+                <img src="./imagenes/perfil.png">
+            </div>
+        </nav>
+        <!--Seccion de categorias-->
+        <section class="categorias">
+            <button class="botonCategorias">Todos</button>
+            <button class="botonCategorias">Musica</button>
+            <button class="botonCategorias">Generacion 12</button>
+            <button class="botonCategorias">Mixes</button>
+            <button class="botonCategorias">Musica instrumental</button>
+            <button class="botonCategorias">plin plin</button>
+            <button class="botonCategorias">></button>
+        </section> 
+
+        <!--seccion de video-->       
+        <section class="filaVideo">
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                     <a href="https://www.youtube.com/embed/WJ15AWdNzzg" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video1.webp" alt="video1">                        
+                     </a>
+                    
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil1.jpg" alt="perfil1">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">LO MEJOR DE DANIEL CALVETI EN ADORACIÓN - GRANDES ÉXITOS DE ALABANZA Y ADORACIÓN</p>
+                        <p class="parrafo">Amo La Música
+                                          319,000 suscriptores</p>
+                        <p class="parrafo">14,066 vistas - 2 dic 2022</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://youtu.be/q7nFJj0lBkA" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video 2.webp" alt="video2">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil2.jpg" alt="perfil2">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">Declaración del día - Completa victoria I Diciembre 05</p>
+                        <p class="parrafo">
+                            César Castellanos
+                            206,000 suscriptores</p>
+                        <p class="parrafo">12,055 vistas - 5 dic 2022</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://youtu.be/B1svxwMuLf4" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video 3.webp" alt="video3">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil3.jpg" alt="perfil3">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">La Granja de Zenón - Las 35 mejores Canciones de la Granja 1 - 2 y 3 en HD</p>
+                        <p class="parrafo">
+                            El Reino Infantil
+                            54.1 M de suscriptores</p>
+                        <p class="parrafo">913,523,522 vistas - 28 ene 2017</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://www.youtube.com/watch?v=tW8R7_kWecg" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video 4.jpg" alt="video4">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil4.jpg" alt="perfil4">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">Jairon High - Llename</p>
+                        <p class="parrafo">
+                                        Jairon High
+                                        45,300 suscriptores</p>
+                        <p class="parrafo">696,296 vistas - 25 feb 2022</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="filaVideo">
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://youtu.be/9FZiGbiwIo0" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video 5.webp" alt="video5">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil5.jpg" alt="perfil5">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">No Hay Lugar Más Alto - Generación 12 (Cover Miel San Marcos)</p>
+                        <p class="parrafo">Generación 12
+                                           1.69 M de suscriptores</p>
+                        <p class="parrafo">81,709,616 vistas - 24 oct 2018</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://www.youtube.com/watch?v=bx2525eCbxc" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video 6.webp" alt="video6">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil6.jpg" alt="perfil6">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">Gilberto Santa Rosa , Juan Luis Guerra EXITOS - VIEJITAS SALSA ROMANTICA sus mejores canciones</p>
+                        <p class="parrafo"> Musica Para Ti
+                                            65,000 suscriptores</p>
+                        <p class="parrafo">3,492,308 vistas - 4 nov 2020</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://www.youtube.com/watch?v=LeHdjrsEmFM" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video 7.webp" alt="video7">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil7.jpg" alt="perfil7">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">Música Para Dormir Bebés Con Suave Sonido del Mar ♫ ❤ Calmar y Relajar</p>
+                        <p class="parrafo"> Cassio Toledo
+                                            7.2 M de suscriptores</p>
+                        <p class="parrafo">230,358,987 vistas - 6 may 2017</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://www.youtube.com/watch?v=eNLjdPI9zdE" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video 8.webp" alt="video8">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil8.jpg" alt="perfil8">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">La Vaca Lola - Canciones de La Granja de Zenón 2</p>
+                        <p class="parrafo"> El Reino Infantil
+                                            54.1 M de suscriptores</p>
+                        <p class="parrafo">1,582,049,470 vistas - 12 abr 2014</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="filaVideo">
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://www.youtube.com/watch?v=KAsiaDEUnlk&list=OLAK5uy_l_VFWIeYnBTrxzsvu7X0TmOKNN4F2jgds" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video9.webp" alt="video9">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil9.jpg" alt="perfil9">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">HA-ASH - Lo Que un Hombre Debería Saber (Video Oficial)</p>
+                        <p class="parrafo">@HaAshOficial
+                                           9.22 M de suscriptores</p>
+                        <p class="parrafo">16,517,052 vistas - hace 3 meses</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://www.youtube.com/watch?v=AXQxiQL5hNc" target="_blank">
+                         <img class="imagenVideo" src="./imagenes/video10.webp" alt="video10">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil10.jpg" alt="perfil10">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">Ricardo Montaner - Te Hubieras Ido Antes (Ida y Vuelta Edición Especial[Video Oficial]</p>
+                        <p class="parrafo">Ricardo Montaner
+                                           4.34 M de suscriptores</p>
+                        <p class="parrafo">82,760,977 vistas - 28 jul 2017</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href="https://www.youtube.com/watch?v=7D0csDK8UG0" target="_blank">
+                        <img class="imagenVideo" src="./imagenes/video11.webp" alt="video11">
+                    </a>
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <img class="imagenDePerfil" src="./imagenes/perfil11.jpg" alt="perfil11">
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">Redimi2 - VEN A ÉL (Video Oficial) feat Betsy Jo</p>
+                        <p class="parrafo">redimi2oficial 
+                                           @redimi2oficial
+                                           5.28 M de suscriptores</p>
+                        <p class="parrafo">1,391,382 vistas - hace 11 días</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="columnaVideo">
+                <!--imagen de video-->
+                <div>
+                    <a href=""></a>
+                     <img class="imagenVideo" src="./imagenes/video12.webp" alt="video12">
+                </div>
+                <!--informacion del video-->
+                <div class="infoVideo">
+                    <div>
+                        <a href="" target="_blank">
+                            <img class="imagenDePerfil" src="./imagenes/perfil12.jpg" alt="perfil12">
+                        </a>
+                    </div>
+
+                    <div class="informacionVideo">
+                        <p id="Titulo">Gilberto Santa Rosa - Conteo Regresivo (En Vivo)</p>
+                        <p class="parrafo">Gilberto Santa Rosa 
+                                           @gilbertosantarosa
+                                           1.32 M de suscriptores</p>
+                        <p class="parrafo">32,599 vistas - 6 meses </p>
+                    </div>
+
+                </div>
+            </div>
+        </section> 
+
+        
+    </main>
+</body>
+</html>
